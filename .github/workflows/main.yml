@@ -29,3 +29,4 @@ jobs:
     - name: Run daka.py
       run: |
         python daka.py ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }}
+        python daka.py ${{ secrets.USERNAME2 }} ${{ secrets.PASSWORD2 }}
